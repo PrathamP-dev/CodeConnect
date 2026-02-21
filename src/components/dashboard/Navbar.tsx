@@ -26,26 +26,26 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-1 sm:gap-4">
-          <Button variant="ghost" size="icon" className="hidden sm:flex text-muted-foreground hover:text-primary relative">
-            <Home className="w-5 h-5" />
+          <Button variant="ghost" size="icon" asChild className="hidden sm:flex text-muted-foreground hover:text-primary relative">
+            <Link href="/"><Home className="w-5 h-5" /></Link>
           </Button>
           <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary relative">
             <Bell className="w-5 h-5" />
             <span className="absolute top-2 right-2 w-2 h-2 bg-accent rounded-full border-2 border-background" />
           </Button>
-          <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-            <MessageSquare className="w-5 h-5" />
+          <Button variant="ghost" size="icon" asChild className="text-muted-foreground hover:text-primary">
+            <Link href="/messages"><MessageSquare className="w-5 h-5" /></Link>
           </Button>
           
           <div className="w-px h-6 bg-border mx-1 hidden sm:block" />
           
-          <div className="flex items-center gap-2 ml-1 cursor-pointer">
+          <Link href="/profile" className="flex items-center gap-2 ml-1 cursor-pointer">
             <Avatar className="w-8 h-8 border-2 border-primary/20">
               <AvatarImage src="https://picsum.photos/seed/me/200/200" />
               <AvatarFallback>ID</AvatarFallback>
             </Avatar>
             <span className="text-sm font-medium hidden lg:block">Ishaan Dev</span>
-          </div>
+          </Link>
         </div>
       </div>
     </nav>
