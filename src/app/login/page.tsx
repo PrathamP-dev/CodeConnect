@@ -11,9 +11,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md space-y-8">
         <div className="text-center space-y-2">
           <div className="flex justify-center">
-            <div className="p-2 bg-primary rounded-2xl shadow-lg">
-              <CCIcon className="w-12 h-12 text-primary-foreground" />
-            </div>
+            <CCIcon className="w-16 h-16 text-primary drop-shadow-lg" />
           </div>
           <h1 className="text-3xl font-headline tracking-tight">Welcome back</h1>
           <p className="text-muted-foreground">Sign in to your CodeConnect account</p>

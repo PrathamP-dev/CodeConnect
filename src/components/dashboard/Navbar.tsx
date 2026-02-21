@@ -11,9 +11,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 max-w-7xl h-16 flex items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
-            <div className="p-1 bg-primary rounded-lg">
-              <CCIcon className="w-8 h-8 text-primary-foreground" />
-            </div>
+            <CCIcon className="w-9 h-9 text-primary" />
             <span className="text-xl font-headline font-bold hidden sm:block tracking-tight">CodeConnect</span>
           </Link>
           
