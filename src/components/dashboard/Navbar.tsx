@@ -1,4 +1,4 @@
-import { Bell, MessageSquare, Search, Home } from "lucide-react";
+import { Bell, MessageSquare, Search, House } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Link from 'next/link';
@@ -26,7 +26,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-1 sm:gap-4">
           <Button variant="ghost" size="icon" asChild className="hidden sm:flex text-muted-foreground hover:text-primary relative">
-            <Link href="/"><Home className="w-5 h-5" /></Link>
+            <Link href="/"><House className="w-5 h-5" /></Link>
           </Button>
           <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary relative">
             <Bell className="w-5 h-5" />

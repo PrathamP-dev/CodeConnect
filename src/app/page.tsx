@@ -4,7 +4,7 @@ import { ActivityFeed } from "@/components/dashboard/ActivityFeed";
 import { Messenger } from "@/components/dashboard/Messenger";
 import { PlatformConnector } from "@/components/dashboard/PlatformConnector";
 import { Button } from "@/components/ui/button";
-import { PenSquare, Code } from "lucide-react";
+import { SquarePen, Code } from "lucide-react";
 
 export default function Home() {
   return (
@@ -34,7 +34,7 @@ export default function Home() {
                     <Code className="w-4 h-4 text-primary" /> Solve Problem
                   </Button>
                   <Button variant="ghost" size="sm" className="text-xs text-muted-foreground gap-2">
-                    <PenSquare className="w-4 h-4 text-orange-500" /> Write Article
+                    <SquarePen className="w-4 h-4 text-orange-500" /> Write Article
                   </Button>
                 </div>
                 <Button size="sm" className="bg-primary hover:bg-primary/90 text-xs px-6">
