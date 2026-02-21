@@ -27,7 +27,6 @@ CodeConnect allows users to link profiles from platforms like **LeetCode**, **Co
 - **UI Components:** [ShadCN UI](https://ui.shadcn.com/)  
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
 - **Icons:** [Lucide React](https://lucide.dev/)  
-- **Backend / AI:** [Firebase](https://firebase.google.com/) & [Genkit](https://github.com/firebase/genkit)  
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
 
 ---
