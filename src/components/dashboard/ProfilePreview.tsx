@@ -15,10 +15,10 @@ export function ProfilePreview() {
           <div className="flex flex-col items-center -mt-10">
             <Avatar className="w-20 h-20 border-4 border-background shadow-lg">
               <AvatarImage src="https://picsum.photos/seed/me/200/200" />
-              <AvatarFallback>JD</AvatarFallback>
+              <AvatarFallback>ID</AvatarFallback>
             </Avatar>
             <div className="text-center mt-3">
-              <h2 className="text-lg font-headline font-bold">John Dev</h2>
+              <h2 className="text-lg font-headline font-bold">Ishaan Dev</h2>
               <p className="text-xs text-muted-foreground">Full Stack Engineer @ TechCorp</p>
             </div>
           </div>

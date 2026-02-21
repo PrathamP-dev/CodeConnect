@@ -10,8 +10,8 @@ const activities = [
   {
     id: 1,
     user: {
-      name: "Alex River",
-      username: "@ariver",
+      name: "Arjun Verma",
+      username: "@averma",
       avatar: "https://picsum.photos/seed/user1/200/200",
     },
     platform: "LeetCode",
@@ -24,8 +24,8 @@ const activities = [
   {
     id: 2,
     user: {
-      name: "Sarah Chen",
-      username: "@schen_code",
+      name: "Priya Sharma",
+      username: "@priya_codes",
       avatar: "https://picsum.photos/seed/user2/200/200",
     },
     platform: "Codeforces",
@@ -38,8 +38,8 @@ const activities = [
   {
     id: 3,
     user: {
-      name: "Marcus Miller",
-      username: "@mmiller",
+      name: "Rohan Gupta",
+      username: "@rgupta_dev",
       avatar: "https://picsum.photos/seed/user3/200/200",
     },
     platform: "LeetCode",

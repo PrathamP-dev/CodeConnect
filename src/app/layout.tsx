@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'CodeFlow | Connect, Code, Conquer',
+  title: 'CodeConnect | Connect, Code, Conquer',
   description: 'The peer learning and coding activity platform for developers.',
 };
 

@@ -13,7 +13,7 @@ export function Navbar() {
             <div className="p-1.5 bg-primary rounded-lg">
               <Code2 className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-headline font-bold hidden sm:block tracking-tight">CodeFlow</span>
+            <span className="text-xl font-headline font-bold hidden sm:block tracking-tight">CodeConnect</span>
           </Link>
           
           <div className="relative ml-4 hidden md:block w-80">
@@ -42,9 +42,9 @@ export function Navbar() {
           <div className="flex items-center gap-2 ml-1 cursor-pointer">
             <Avatar className="w-8 h-8 border-2 border-primary/20">
               <AvatarImage src="https://picsum.photos/seed/me/200/200" />
-              <AvatarFallback>JD</AvatarFallback>
+              <AvatarFallback>ID</AvatarFallback>
             </Avatar>
-            <span className="text-sm font-medium hidden lg:block">John Dev</span>
+            <span className="text-sm font-medium hidden lg:block">Ishaan Dev</span>
           </div>
         </div>
       </div>

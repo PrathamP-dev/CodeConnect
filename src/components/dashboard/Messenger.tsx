@@ -5,14 +5,14 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import { Search, Circle } from "lucide-react";
+import { Search } from "lucide-react";
 
 const friends = [
-  { id: 1, name: "Sarah Chen", status: "online", avatar: "https://picsum.photos/seed/user2/100/100", lastMessage: "How did you solve the Hard problem?" },
-  { id: 2, name: "Marcus Miller", status: "offline", avatar: "https://picsum.photos/seed/user3/100/100", lastMessage: "Check out this repo!" },
-  { id: 3, name: "Elena Gilbert", status: "online", avatar: "https://picsum.photos/seed/user4/100/100", lastMessage: "Let's code together tonight." },
-  { id: 4, name: "David Kim", status: "online", avatar: "https://picsum.photos/seed/user5/100/100", lastMessage: "Thanks for the help!" },
-  { id: 5, name: "Riley West", status: "offline", avatar: "https://picsum.photos/seed/user6/100/100", lastMessage: "Sent you the solution link." },
+  { id: 1, name: "Priya Sharma", status: "online", avatar: "https://picsum.photos/seed/user2/100/100", lastMessage: "How did you solve the Hard problem?" },
+  { id: 2, name: "Rohan Gupta", status: "offline", avatar: "https://picsum.photos/seed/user3/100/100", lastMessage: "Check out this repo!" },
+  { id: 3, name: "Ananya Iyer", status: "online", avatar: "https://picsum.photos/seed/user4/100/100", lastMessage: "Let's code together tonight." },
+  { id: 4, name: "Vikram Singh", status: "online", avatar: "https://picsum.photos/seed/user5/100/100", lastMessage: "Thanks for the help!" },
+  { id: 5, name: "Sneha Patil", status: "offline", avatar: "https://picsum.photos/seed/user6/100/100", lastMessage: "Sent you the solution link." },
 ];
 
 export function Messenger() {
