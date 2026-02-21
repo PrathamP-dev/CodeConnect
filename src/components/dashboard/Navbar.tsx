@@ -1,8 +1,9 @@
-import { Code2, Bell, MessageSquare, User, Search, Home } from "lucide-react";
+import { Bell, MessageSquare, Search, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Link from 'next/link';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { CCIcon } from "@/components/ui/cc-icon";
 
 export function Navbar() {
   return (
@@ -10,8 +11,8 @@ export function Navbar() {
       <div className="container mx-auto px-4 max-w-7xl h-16 flex items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
-            <div className="p-1.5 bg-primary rounded-lg">
-              <Code2 className="w-5 h-5 text-primary-foreground" />
+            <div className="p-1 bg-primary rounded-lg">
+              <CCIcon className="w-8 h-8 text-primary-foreground" />
             </div>
             <span className="text-xl font-headline font-bold hidden sm:block tracking-tight">CodeConnect</span>
           </Link>

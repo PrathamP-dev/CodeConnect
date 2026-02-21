@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
-import { Code2 } from "lucide-react";
+import { CCIcon } from "@/components/ui/cc-icon";
 
 export default function SignupPage() {
   return (
@@ -10,12 +10,12 @@ export default function SignupPage() {
       <div className="w-full max-w-md space-y-8">
         <div className="text-center space-y-2">
           <div className="flex justify-center">
-            <div className="p-3 bg-primary rounded-2xl shadow-lg">
-              <Code2 className="w-8 h-8 text-primary-foreground" />
+            <div className="p-2 bg-primary rounded-2xl shadow-lg">
+              <CCIcon className="w-12 h-12 text-primary-foreground" />
             </div>
           </div>
           <h1 className="text-3xl font-headline tracking-tight">Create an account</h1>
-          <p className="text-muted-foreground">Join the CodeFlow community today</p>
+          <p className="text-muted-foreground">Join the CodeConnect community today</p>
         </div>
 
         <Card className="border-none shadow-xl bg-card/80 backdrop-blur-sm">
